@@ -1,0 +1,250 @@
+/* цвет заголовков #212121; */
+/* цвет текста #757575; */
+/* акцент  #2196F3; */
+/* белий #FFFFFF; */
+/* серий бекграунд #2F303A; */
+/* бекграунд мейна #E5E5E5; */
+/* бекграунд команди #F5F4FA; */
+/* контакти color: rgba(255, 255, 255, 0.6); */
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
+  --backgroud-gray: #2f303a;
+  --background-main-color: #e5e5e5;
+  --baclground-team: #f5f4fa;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: #212121;
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.main-content {
+  background-color: var(--background-main-color);
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* header */
+header {
+  background-color: var(--white);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.studio {
+  color: var(--black);
+}
+.list li {
+  /* background-color:tomato; */
+  /* display: block; */
+}
+.list img {
+  display: block;
+}
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+address .contacts:hover,
+address .contacts:focus {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--text-color);
+}
+/* hero */
+
+.hero {
+  background-color: var(--backgroud-gray);
+  color: var(--white);
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-bottom: 200px;
+  min-width: 200px;
+  color: var(--white);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* features */
+.hidden {
+  visibility: hidden;
+  font-size: 0;
+  /* color: var(--background-main-color); */
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.features .subtitle {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.features .paragraph {
+  line-height: 1.7;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* what we do */
+
+.title {
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* team */
+.team {
+  background-color: var(--baclground-team);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+.team .subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.team .paragraph {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--text-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* footer */
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--backgroud-gray);
+}
+.studio-white {
+  color: var(--white);
+}
+address {
+  color: var(--white);
+  line-height: 1.7;
+  font-style: normal;
+}
+address p {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.contacts {
+  color: var(--contacts-color);
+  display: block;
+  margin-bottom: 9px;
+}
+
+.contacts:last-child {
+  margin-bottom: 0;
+}
+/* portfolio */
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  background-color: var(--baclground-team);
+}
+button:hover,
+button:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-color);
+  letter-spacing: 0.06em;
+}
+.projects .paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--text-color);
+}
+
+.box {
+  background-color: var(--white);
+}
