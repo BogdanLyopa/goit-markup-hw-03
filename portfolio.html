@@ -14,110 +14,122 @@
 
   <body>
     <header>
-      <nav>
-        <a class="logo link" href="index.html"
-          >Web<span class="studio">Studio</span></a
-        >
-        <ul class="site-nav list">
-          <li><a class="link" href="index.html">Студия</a></li>
-          <li><a class="link current" href="portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="site-nav contacts">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
-    <main class="main-content">
-      <div>
-        <h1 class="hidden">Фильтры</h1>
-        <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a class="logo link" href="index.html">Web<span class="studio">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="item"><a class="link" href="index.html">Студия</a></li>
+            <li class="item"><a class="current link" href="portfolio.html">Портфолио</a></li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="site-nav list contacts">
+          <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
+    
+    </header>
+    <main class="main-content">
+      <div class="container section">
+        <h1 class="hidden">Фильтры</h1>
+        <div class="buttons"><ul class="list">
+          <li class="btn"><button type="button">Все</button></li>
+          <li class="btn"><button type="button">Веб-сайты</button></li>
+          <li class="btn"><button type="button">Приложения</button></li>
+          <li class="btn"><button type="button">Дизайн</button></li>
+          <li class="btn"><button type="button">Маркетинг</button></li>
+        </ul>
+      </div>
+      
       <section class="projects">
         <h2 class="hidden">Проекты</h2>
         <ul class="list">
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image.jpg" alt="" />
-              <h3 class="projects-title">Технокряк</h3>
-              <p class="paragraph">Веб-сайт</p>
+              <img src="./images/image.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Технокряк</h3>
+                <p class="paragraph">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image1.jpg" alt="" />
-              <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
+              <img src="./images/image1.jpg" alt=""  width="368"/>
+             <div class="box-caption"> <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
               <p class="paragraph">Дизайн</p>
+            </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image2.jpg" alt="" />
-              <h3 class="projects-title">Ресторан Seafood</h3>
-              <p class="paragraph">Приложение</p>
+              <img src="./images/image2.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Ресторан Seafood</h3>
+                <p class="paragraph">Приложение</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image3.jpg" alt="" />
-              <h3 class="projects-title">Проект Prime</h3>
-              <p class="paragraph">Маркетинг</p>
+              <img src="./images/image3.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Проект Prime</h3>
+                <p class="paragraph">Маркетинг</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image4.jpg" alt="" />
-              <h3 class="projects-title">Проект Boxes</h3>
-              <p class="paragraph"">Приложение</p>
+              <img src="./images/image4.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Проект Boxes</h3>
+                <p class="paragraph"">Приложение</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image5.jpg" alt="" />
-              <h3 class="projects-title">Inspiration has no Borders</h3>
-              <p class="paragraph">Веб-сайт</p>
+              <img src="./images/image5.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Inspiration has no Borders</h3>
+                <p class="paragraph">Веб-сайт</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image6.jpg" alt="" />
-              <h3 class="projects-title">Издание Limited Edition</h3>
+              <img src="./images/image6.jpg" alt="" width="368" />
+             <div class="box-caption"> <h3 class="projects-title">Издание Limited Edition</h3>
               <p class="paragraph">Дизайн</p>
+            </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image7.jpg" alt="" />
-              <h3 class="projects-title">Проект LAB</h3>
-              <p class="paragraph">Маркетинг</p>
+              <img src="./images/image7.jpg" alt="" width="368" />
+              <div class="box-caption"><h3 class="projects-title">Проект LAB</h3>
+                <p class="paragraph">Маркетинг</p>
+              </div>
             </a>
           </li>
           <li class="box">
             <a class="link" href="">
-              <img src="./images/image8.jpg" alt="" />
-              <h3 class="projects-title">Growing Business</h3>
+              <img src="./images/image8.jpg" alt="" width="368" />
+             <div class="box-caption"> <h3 class="projects-title">Growing Business</h3>
               <p class="paragraph">Приложение</p>
+              </div>
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
-    <footer>
-      <a class="logo link" href="./index.html"
-        >Web<span class="studio-white">Studio</span></a
-      >
+  <footer>
+    <div class="container">
+      <a class="logo link" href="./index.html">Web<span class="studio-white">Studio</span></a>
       <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p> 
+        <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
         <a class="contacts link" href="mailto:info@example.com">info@example.com</a>
         <a class="contacts link" href="tel:+380991111111">+38 099 111 11 11</a>
       </address>
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
